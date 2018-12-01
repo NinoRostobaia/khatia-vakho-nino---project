@@ -5,6 +5,13 @@
     font-family: Helvetica, Arial, sans-serif
 }
 
+.container {
+    margin: 0 auto;
+    width: 960px;
+    height: 100%;
+    overflow: hidden;
+}
+
 /* FLEX */
 
 .flex {
@@ -16,7 +23,16 @@
 }
 
 .space-between {
-    justify-content: space-between;    
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;   
+}
+
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* WRAPPER */
@@ -32,13 +48,125 @@ header {
     background-color: #F1C229
 }
 
+
+
+
+
+
+
+
+
+
+
 /* nino */
 
-main {
+/* main {
     width: 100%;
     height: 300px;
     background-color: aqua;
+} */
+
+
+.main__top {
+    background: #660000;
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #303030;
 }
+
+
+.main__top__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 225px;
+    height: 305px;
+    background: #fff;
+    margin-top: 60px;
+    margin-bottom: 58px;
+}
+
+
+.main__top__item :hover {
+    border: 3px solid red;
+    background-color: #76c38f;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.main__top__item--img {
+    background: #303030;
+    color: #fff;
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* .main__top__item--img :hover {
+    background: #fff;
+    color: #303030;
+} */
+
+
+.main__top__item--header {
+    font-size: 32px;
+    color: #333333;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.main__top__item--text {
+    color: #979797;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 15px;
+    font-family: 'Georgia';
+}
+
+
+.latest__work {
+    background-color: #303030;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 48px;
+    width: 256px;
+    height: 48px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -25px;
+}
+
+
+/* ///////////////////////// */
+
+.main__bottom {
+    background-color: #660000;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+
+.flex-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    /* box-pack: justify; */
+}
+
+
+
+
 
 /* FOOTER */
 
