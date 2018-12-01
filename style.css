@@ -53,11 +53,6 @@ header {
 
 
 
-
-
-
-
-
 /* nino */
 
 
@@ -93,6 +88,8 @@ header {
     background: #303030;
     color: #fff;
     margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
     width: 120px;
     height: 120px;
     display: flex;
@@ -107,7 +104,7 @@ header {
 } */
 
 
-.main__top__item--header {
+.main__top__item--title {
     font-size: 32px;
     color: #333333;
     margin-top: 20px;
@@ -164,6 +161,8 @@ header {
     border: 6px solid #ffffff;
     width: 290px;
     height: 190px;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 30px;
 }
 
